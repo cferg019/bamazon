@@ -59,6 +59,7 @@ function start() {
                             })
                         } else {
                             console.log('Insufficient inventory! Too bad, so sad.')
+                            connection.end();
                         }
                     }
                 }
