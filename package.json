@@ -1,0 +1,26 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Bamazon is a node-based store where customers can purchase products from the wide-ranging inventory, managers can manager their inventory, and supervisors can manage sales and departments.",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "cli-table": "^0.3.1",
+    "mysql": "^2.18.0",
+    "inquirer": "^7.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cferg019/bamazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cferg019/bamazon/issues"
+  },
+  "homepage": "https://github.com/cferg019/bamazon#readme"
+}
